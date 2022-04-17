@@ -1,3 +1,7 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .container {
     background: url(../assets/Desktop_Backgrounds1.png) no-repeat ;
     background-size: cover;
