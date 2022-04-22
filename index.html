@@ -24,6 +24,11 @@
                         <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
                     </ul>
                 </nav>
+                <a href="#" class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
             </div>
         </header>
         <section class="hero">
@@ -38,7 +43,7 @@
         <h2 class="section-headline">This is the Section Headline,<br>Continues to Two Lines</h2>
         <h3 class="lorem">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit sed do eiusmod.</h3>
         <div class="parg">
-            <p>
+            <p class="second-parg">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -64,7 +69,7 @@
             <div class="button-container">
                 <button class="button-video">
                     <div class="video">
-                        <i class="play-icon">&#9654</i>
+                       <img src="assets/play.png" alt="play" class="play-img">
                     </div>
                 </button>
             </div>
@@ -72,13 +77,21 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="footer-main">
-            <div class="footer-logo">
-                <img class="footer-img" src="assets/footer-logo.png" alt="logo">
-                <h4 class="project">PROJECT</h4>
+        <div class="flex-container">
+            <div class="flex-item first" >
+                <div class="footer-logo">
+                    <img class="footer-img" src="assets/footer-logo.png" alt="logo">
+                    <h4 class="project">PROJECT</h4></div>
+                </div>
+            <div class="flex-item second">
+                <p class="footer-par">
+                    123 Street, <br>
+                    Anytown, USA 12345
+                </p>
+                <a class="footer-par-link" href="#">hello@website.com</a>
             </div>
-            <p class="footer-par"><em>123 Street,<br> Anytown, USA 12345</em> <br><a class="footer-par-link" href="#">hello@website.com</a></p>
-            <p class="footer-par"><em>© 2021 Project. All rights reserved</em></p>
+            <div class="flex-item therd" >
+                <p class="footer-par last"><em>© 2021 Project. All rights reserved</em></p></div>
         </div>
     </footer>
 </body>
