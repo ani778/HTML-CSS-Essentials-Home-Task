@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" >
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +14,7 @@
 </head>
 <body>
     <div class="container">
+        <img src="assets/stars.png" alt="stars" class="stars">
         <header class="header">
             <div class="navbar">
                 <a class="logo-link" href="#">Project</a>
@@ -47,7 +49,9 @@
         </header>
         <section class="hero">
             <div class="hero-block">
-                <img src="assets/logo.png" alt="logo" class="logo">
+                <div class="logo-container">
+                    <img src="assets/logo.png" alt="logo" class="logo">
+                </div>
                 <h1 class="hero-headline">
                     Your Headline <br>Here
                 </h1>
@@ -56,6 +60,7 @@
                 </h3>
             </div>
         </section>
+        <!-- <img src="assets/stars.png" alt="stars" class="stars"> -->
     </div>
     <main class="main">
         <h2 class="section-headline">
@@ -93,8 +98,9 @@
                 Learn more about our culture...
             </h2>
             <div class="button-container">
-                <button class="button-video">
-                    <img src="assets/play.png" alt="play" class="play-img">
+                <button class="button-video hover">
+                    <i class="fa fa-play hover" id="play-icon" ></i>
+                    <!-- <img src="assets/play.png" alt="play" class="play-img"> -->
                 </button>
             </div>
             <h4 class="describe">
